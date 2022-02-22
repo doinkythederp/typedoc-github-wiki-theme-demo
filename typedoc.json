@@ -1,0 +1,5 @@
+{
+  "entryPoints": ["./index.ts"],
+  "out": "doc",
+  "theme": "github-wiki"
+}

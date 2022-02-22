@@ -1,0 +1,12 @@
+{
+  "name": "typedoc-github-wiki-theme-demo",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "packageManager": "pnpm@6.32.0",
+  "devDependencies": {
+    "typedoc": "^0.22.12",
+    "typedoc-github-wiki-theme": "^1.0.0",
+    "typedoc-plugin-markdown": "^3.11.14",
+    "typescript": "^4.5.5"
+  }
+}
