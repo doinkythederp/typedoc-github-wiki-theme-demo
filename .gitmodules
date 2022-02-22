@@ -1,3 +1,6 @@
 [submodule "wiki"]
 	path = wiki
 	url = https://github.com/doinkythederp/typedoc-github-wiki-theme-demo.wiki.git
+[submodule "typedoc"]
+	path = typedoc
+	url = https://github.com/TypeStrong/typedoc.git

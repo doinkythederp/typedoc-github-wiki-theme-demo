@@ -1,5 +1,7 @@
 {
-  "entryPoints": ["./index.ts"],
-  "out": "doc",
-  "theme": "github-wiki"
+  "theme": "github-wiki",
+  "entryPoints": ["./src"],
+  "sort": ["source-order"],
+  "media": "./media",
+  "out": "doc"
 }

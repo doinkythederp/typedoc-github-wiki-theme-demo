@@ -4,12 +4,12 @@ echo Cleaning wiki
 find wiki ! -name .git -delete
 
 echo Generating docs
-# Generating docs directly in the wiki directory
-# would remove .git, which we don't want
-./node_modules/.bin/typedoc
+cd typedoc/example
+../../node_modules/.bin/typedoc --theme github-wiki
+cd ../..
 
 echo Copying docs to wiki
-cp -r doc/* wiki/
+cp -r ./typedoc/example/docs/* wiki/
 
 echo Removing docs
-rm -rf doc
+rm -rf ./typedoc/example/docs
